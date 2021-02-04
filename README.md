@@ -8,3 +8,5 @@ A Rotina só possui o método POST. Ela foi desenvolvida desta forma, pois o sis
 se é uma inclusão, alteração ou exclusão.
 Pego o primeiro indice da tabela, e filtro os campos para ver se foram enviados no JSON. Com tudo ok, faço uma busca na base para verificar a existência.
 Se existir, altera, senão inclui. Caso exista e o campo D_E_L_E_T_ venha preenchido, o sistema deleta.
+
+Nesta versão, não contempla nenhuma questão de LOG.
